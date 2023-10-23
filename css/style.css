@@ -1,0 +1,384 @@
+/*1 kolonne for mobile*/
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/*3 kolonner for desktop*/
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* ---------Øverst/nav/navbar/logo-------- */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0rem;
+    margin: 0;
+    padding-top: 3rem; /* Top padding for the body */
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7c59f;
+    width: 100%; /* Ensure the nav takes up the full width */
+
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    justify-content: center;
+    font-size: large; /* Font size for the navbar */
+    padding-top: 0.5rem; /* Top padding for the navbar */
+}
+
+#logo img {
+    width: 120px;
+    height: auto;
+}
+
+nav section {
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+nav section i {
+    font-size: 1.5rem; 
+    color: #000; 
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .left-icons i {
+    margin-right: 10px;
+}
+
+.navbar .right-icons i {
+    margin-left: 10px;
+}
+
+
+
+/* ------------Forsiden------------ */
+section {
+    position: relative;
+}
+
+#nike-af1-img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.buy-now h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7c59f; 
+    padding: 10px; 
+    border-radius: 15px; 
+    color: black; 
+    text-decoration: none; 
+}
+
+.buy-now img {
+    width: 85%; 
+    height: 100%;
+    padding: 1rem;
+}
+
+.sports{
+    background-color: #fde6d5;
+}
+
+.sports h2{
+    background-color: #f7c59f;
+    margin-top: 0.5rem; 
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: center; 
+}
+
+.shoes-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 2rem;
+}
+
+.shoe {
+    position: relative;
+}
+
+.shoe img {
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto; 
+    padding-top: 0.5rem;
+}
+
+.shoe h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#f7c59f;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    border-radius: 15px; 
+    color: black; 
+    text-decoration: none; 
+}
+
+.new-in {
+    background-color: #fde6d5;
+    padding-top: 0.5rem; 
+    padding-bottom: 1rem;
+    text-align: center; 
+}
+
+.new-in h2 {
+    background-color: #f7c59f;
+    margin-top: 0rem; 
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.new-in-bilder img{
+    width: 85%; 
+    height: 100%;
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+
+/* --------Produktside-------- */
+.left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-column img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.produktside{
+background-color: #fde6d5;
+}
+
+.produktside h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.produktside h2 {
+    font-size: 15px;
+    text-align: left;
+    padding-left:1rem;
+    color: gray;
+}
+
+.price h3{
+    padding-left: 1rem;
+    font-size: 25px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.reviews {
+    background-color: #fde6d5;
+    padding-left: 1rem;
+    align-items: baseline;
+}
+
+.reviews h4 {
+    margin-right: 1rem; 
+    color: black;
+    font-size: 20px;
+}
+
+.reviews .fa-regular.fa-star {
+    margin-right: 0.5rem; 
+    color: gray;
+}
+
+.reviews h5 {
+    color: gray;
+}
+
+.størrelser {
+    padding-left: 2rem;
+    gap: 1rem; 
+    padding-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: space-between; 
+}
+
+.størrelser h4{
+    width: 100%;
+    text-align: center; 
+    font-size: 1.2rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.størrelser h5{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background-color: #f7c59f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; 
+}
+
+.add-to-cart h5{
+    font-size: 30px;
+    background-color: #f7c59f; 
+    padding: 10px; 
+    border-radius: 15px; 
+    color: black; 
+    text-decoration: none; 
+    justify-content: center;
+    display: flex;
+}
+
+.details h6{
+    font-size: 30px;
+    padding-top: 7rem;
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
+.info{
+    padding: 1rem;
+    background-color: #fde6d5;
+}
+
+.right-column{
+    justify-content: center;
+}
+
+
+
+
+/* --------Handlekurv side-------- */
+
+.main-handlekurv {
+padding: 1rem;
+justify-items: center; 
+background-color: #fde6d5;
+}
+
+.item-details{
+    padding-bottom: 10rem;
+    padding-top: 7rem;
+    justify-content: center ;
+    text-align: center;
+}
+
+.item-details h3{
+    font-size: 20px;
+}
+
+.cart-item img {
+    width: 320px;
+}
+
+.remove-section{
+    display: flex;
+    padding-bottom: 2rem;
+    text-align: center;
+    justify-content: center ;
+}
+
+.remove{
+    background-color: #f7c59f;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+}
+
+.total h3{
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.cart-item{
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.checkout{
+    background-color: #f7c59f;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.checkout-section {
+    padding-bottom: 1rem;
+}
+
+
+
+
+/* --------Footer for begge-------- */
+
+footer {
+    grid-area: footer;
+    background-color: #f7c59f;
+    padding: 1rem;
+    padding-top: 0rem;
+    text-align: center;
+}
+
+.footer-content {
+    justify-content: space-around;
+    color: black;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.social-icons i {
+    margin-right: 10px;
+    font-size: 2rem;
+    display: block;
+    padding: 0.5rem;
+}

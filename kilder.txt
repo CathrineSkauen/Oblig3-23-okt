@@ -1,0 +1,31 @@
+
+Kilder til bilder brukt i html/css:
+
+
+
+img/basketball-shoes.jpg : 
+https://pixabay.com/photos/shoes-basketball-lebron-james-shoes-1011596/
+
+img/Foot-Shop-logo.png : 
+https://www.google.com/url?sa=i&url=https%3A%2F%2F1000marcas.net%2Ffoot-shop-logo%2F&psig=AOvVaw0Zp0XFost05PtiahSWBYcp&ust=1698155216764000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOC4-aenjIIDFQAAAAAdAAAAABAD
+
+img/football-shoes.jpg:
+https://pixabay.com/photos/nike-soccer-shoes-football-sports-1271624/
+
+img/nike-af1.jpg:
+https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg
+
+img/nike-blue-sneakers.jpg:
+https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg
+
+img/nike-shoes-green.jpg:
+https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg
+
+img/nike-shoes.jpg:
+https://pixabay.com/static/frontend/3c346409d336d5f09a7f.svg
+
+img/running-shoes.jpg:
+https://pixabay.com/photos/marathon-running-sports-endurance-3753907/
+
+img/tennis-shoes.jpg:
+https://pixabay.com/photos/tennis-play-tennis-court-ball-5782695/
